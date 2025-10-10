@@ -1,0 +1,23 @@
+/**これはプログラムの説明を書くことができる**/
+
+#include <stdio.h>
+
+int main()
+{
+    /**名前を付けて数字を保存する**/
+    int pen = 100;
+    printf("りんごを%d個発注しました\n", pen);
+    /**％ｄの部分で数字を表示する**/
+    pen = pen*999;
+    printf("あっ間違えて%d個発注してしましました\n", pen);
+    pen = pen*999;
+    printf("あっ間違えて%d個発注してしましました\n", pen);
+    pen = pen*999;
+    printf("あっ間違えて%d個発注してしましました\n", pen);
+    pen = pen*999;
+    printf("あっ間違えて%d個発注してしましました\n", pen);
+    pen = pen*500;
+    printf("あっ間違えて%d個発注してしましました\n", pen);
+
+    return 0;
+}
